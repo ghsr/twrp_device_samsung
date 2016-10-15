@@ -32,7 +32,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Recovery
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/android0/f_mass_storage/lun%d/file"
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/crater/custombootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/crater/mkbootimg.mk
 
 # TWRP
 HAVE_SELINUX := true
