@@ -36,7 +36,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/crater/mkbootimg.mk
 
 # TWRP
-HAVE_SELINUX := true
 TW_THEME := portrait_mdpi
 TW_EXCLUDE_ENCRYPTED_BACKUPS := true
 TW_EXCLUDE_SUPERSU := true
